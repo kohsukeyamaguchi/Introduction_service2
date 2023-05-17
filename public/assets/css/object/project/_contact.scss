@@ -1,0 +1,45 @@
+//変数
+$font-color__default:#777;
+$accent-color:#FF1200;
+$base-color:#FFFFFF;
+$main-color:#E6E6E6;
+
+$base-font:'Montserrat', sans-serif;
+
+
+$font-size_s: 12px;
+$font-size_m: 14px;
+$font-size_default: 16px;
+$font-size_l: 18px;
+$font-size_xl: 24px;
+$font-size_xxl: 30px;
+$font-size_3l: 40px;
+$font-size_4l: 60px;
+
+$space_s: 5px;
+$space_m: 10px;
+$space_l: 15px;
+$space_xl: 20px;
+$space_xxl: 30px;
+$space_3l: 40px;
+$space_7l: 240px;
+$space_10l:300px;
+
+.p-contact-form{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.p-contact-form__title{
+    display: block;
+    font-size: $font-size_xl;
+    opacity: 0.7;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.p-contact-form__input{
+    font-size: $font-size_default;
+    color: #545454;
+    font-weight: bold;
+}

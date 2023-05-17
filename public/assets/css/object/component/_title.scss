@@ -1,0 +1,50 @@
+//変数
+$font-color__default:#111111;
+$accent-color:#FF1200;
+$base-color:#FFFFFF;
+$main-color:#E6E6E6;
+
+$header-font:'Montserrat', sans-serif;
+
+$font-size_s: 12px;
+$font-size_m: 14px;
+$font-size_default: 16px;
+$font-size_l: 18px;
+$font-size_xl: 24px;
+$font-size_xxl: 30px;
+$font-size_3l: 38px;
+
+$space_s: 5px;
+$space_m: 10px;
+$space_l: 15px;
+$space_xl: 20px;
+$space_xxl: 30px;
+$space_3l: 40px;
+$space_7l: 240px;
+$space_10l:300px;
+
+.c-page-title{
+    font-family: $header-font;
+    color: $font-color__default;
+    font-size: $font-size_3l;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 50px; 
+}
+
+.c-ctn-title{
+    font-size: $font-size_xl;
+    border-left: 3px solid $accent-color;
+    box-sizing: border-box;
+    height: 50px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+    padding-left: 20px;
+}
+
+

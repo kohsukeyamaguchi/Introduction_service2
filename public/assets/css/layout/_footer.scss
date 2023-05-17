@@ -1,0 +1,35 @@
+//変数
+$font-color__default:#777;
+$accent-color:#FF1200;
+$base-color:#FFFFFF;
+$main-color:#E6E6E6;
+
+$header-font:'Rock Salt', cursive;
+
+$font-size_s: 12px;
+$font-size_m: 14px;
+$font-size_default: 16px;
+$font-size_l: 18px;
+$font-size_xl: 24px;
+$font-size_xxl: 30px;
+$font-size_3l: 38px;
+
+$footer-height:80px;
+
+$space_s: 5px;
+$space_m: 10px;
+$space_l: 15px;
+$space_xl: 20px;
+$space_xxl: 30px;
+$space_3l: 40px;
+$space_10l:350px;
+
+.l-footer{
+    background-color: $main-color;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $footer-height;
+    border-top: 1px solid #E6E6E6;
+}

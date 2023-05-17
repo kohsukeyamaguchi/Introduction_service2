@@ -1,0 +1,45 @@
+//変数
+$font-color__default:#111111;
+$accent-color:#FF1200;
+$base-color:#FFFFFF;
+$main-color:#E6E6E6;
+
+$header-font:'Montserrat', sans-serif;
+
+$font-size_s: 12px;
+$font-size_m: 14px;
+$font-size_default: 16px;
+$font-size_l: 18px;
+$font-size_xl: 24px;
+$font-size_xxl: 30px;
+$font-size_3l: 38px;
+
+$space_s: 5px;
+$space_m: 10px;
+$space_l: 15px;
+$space_xl: 20px;
+$space_xxl: 30px;
+$space_3l: 40px;
+$space_7l: 240px;
+$space_10l:300px;
+
+.c-btn{
+    display: flex;
+    width: 300px;
+    height: 60px;
+    color: $base-color;
+    border-radius: 30px;
+    background: $accent-color;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    transition: all 1.5s;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        transition: all 0.5s;
+        background: $base-color;
+        color: $accent-color;
+        border: 1px solid $accent-color;
+    }
+}

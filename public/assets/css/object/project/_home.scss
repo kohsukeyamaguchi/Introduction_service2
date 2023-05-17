@@ -1,0 +1,235 @@
+//変数
+$font-color__default:#777;
+$accent-color:#FF1200;
+$base-color:#FFFFFF;
+$main-color:#E6E6E6;
+
+$base-font:'Montserrat', sans-serif;
+
+
+$font-size_s: 12px;
+$font-size_m: 14px;
+$font-size_default: 16px;
+$font-size_l: 18px;
+$font-size_xl: 24px;
+$font-size_xxl: 30px;
+$font-size_3l: 40px;
+$font-size_4l: 60px;
+
+$space_s: 5px;
+$space_m: 10px;
+$space_l: 15px;
+$space_xl: 20px;
+$space_xxl: 30px;
+$space_3l: 40px;
+$space_7l: 240px;
+$space_10l:300px;
+
+
+.p-img-ctn__slider{
+    width:100%;
+    height: 910px;
+    overflow: hidden;
+    position: relative;
+}
+.p-img-ctn__slider__container{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+.p-img-ctn__slider__container__item{
+    width: 100vw;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 400px;
+    font-size: 5em;
+    
+    &>img{
+    width: 100%;
+    height: 910px;
+    object-fit: cover;
+ } 
+}
+
+.p-main-ctn{
+    width: 100%;
+    height: 650px;
+    background: $base-color;
+    padding: 70px 0px;
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.p-main-ctn__title{
+    font-size: $font-size_3l;
+    background: $base-color;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-weight: 900;
+}
+
+.p-main-ctn__sub{
+    font-size: $font-size-xxl;
+    background: $base-color;
+    display: flex;
+    justify-content: center;
+    padding-top:25px;
+    font-family: $base-font;
+    opacity: 0.7;
+}
+
+.p-main-ctn__sentence{
+    font-size: $font-size-l;
+    background: $base-color;
+    margin-top: 75px;
+    text-align: center;
+    line-height: 27px;
+    font-weight:300;
+    &>span{
+        font-weight: bold; 
+    }
+}
+
+.p-menu-ctn{
+    background: $main-color;
+    width: 100%;
+    height: 1300px;
+}
+
+.p-menu-ctn__category{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+.p-menu-ctn__category__img{
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    &>img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
+}
+
+.p-menu-ctn__category__item{
+    background: $base-color;
+    width: 500px;
+    height: 500px;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+}
+.p-portfolio-ctn{
+    &-1{
+        display: block;
+    }
+    &-2{
+        display: none;
+    }
+}
+
+.p-img{
+    &-1{
+        top: 200px;
+        left: 160px;
+    }
+    &-2{
+        top: 200px;
+        right: 160px;
+    }
+}
+
+.p-item{
+    &-1{
+        top: 50px;
+        right: 210px;
+    }
+    &-2{
+        top: 0px;
+        left: 210px;
+    }
+}
+
+.p-menu-ctn__category__item__title{
+    font-size: $font-size_4l;
+    font-family: $base-font;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.p-menu-ctn__category__item__sub{
+    font-size: $font-size_xl;
+    font-weight: bold;
+    opacity: 0.7;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.p-menu-ctn__category__item__sentence{
+    font-size:$font-size_default;
+    text-align: center;
+    padding: 50px 0 50px 0; 
+    line-height: 27px;
+}
+
+.p-portfolio-ctn__btns{
+    display:none;
+    box-sizing: border-box;
+    height: 80%;
+    margin-top: 50px;
+    padding-top: 50px;
+    &>a{
+        margin-top:30px;
+    }
+}
+
+.p-log-ctn{
+    width: 100%;
+    height:325px;
+}
+
+
+.p-log-ctn__title{
+    font-size: $font-size_3l;
+    font-weight: 900;
+    width: 300px;
+    text-align: center;
+    border-left: 7px solid $accent-color; 
+    margin: 100px auto 25px auto;
+}
+
+.p-log-ctn__list{
+    width: 500px;
+    height: 200px;
+    margin:0 auto;
+    border: 5px solid $main-color;
+    overflow: scroll;
+}
+
+.p-log-ctn__list__item{
+    margin-top: 25px;
+    margin-left: 20px;
+    word-break:break-word;
+}
+
+.p-log-ctn__list__item--nothing{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 80px;
+
+}
+.p-button-hidden-content{
+    display:none;
+}
